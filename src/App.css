@@ -1,0 +1,41 @@
+.App {
+  text-align: left;
+  background-color: rgb(15, 14, 14);
+  color: white;
+}
+
+.App-header {
+  background-color: rgb(15, 14, 14);
+  background-image: url('./screenshot.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+}
+
+.render-note {
+  text-align: center;
+}
+
+.boxed {
+  align-items: center;
+  width: 50%;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.box {
+  align-items: left;
+  width: 10%;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  margin: auto;
+  text-align: left;
+}
